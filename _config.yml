@@ -107,7 +107,7 @@ navigation_header:
   url: /about/
 - title: Articles
   url: /blog/
-- title: Rechercher
+- title: Recherche
   url: /search/
 # - title: Categories
 #   url: /categories/
