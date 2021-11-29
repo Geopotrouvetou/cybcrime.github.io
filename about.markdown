@@ -1,7 +1,7 @@
 ---
 title: About
 layout: page
-aside: false
+aside: true
 ---
 
 <br/>
