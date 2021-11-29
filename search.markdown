@@ -1,5 +1,5 @@
 ---
-title: Search
+title: Recherche
 excerpt: "Search for a page or post"
 ---
 
@@ -7,7 +7,7 @@ excerpt: "Search for a page or post"
 {% include site-search.html %}
 <br/><br/><br/><br/><br/>
 <hr>
-<h4>Contact me</h4>
+<h4>Me contacter</h4>
 <br/>
 {% include button.html text="cdong49@gatech.edu" link="mailto:cdong49@gatech.edu" %}
 {% include nav-social.html %}
