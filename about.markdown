@@ -22,7 +22,7 @@ Thank you for visiting, and I hope you enjoy your stay!
 
 <hr>
 
-### Get in touch
+### Me contacter
 
 *Si vous voulez en savoir plus sur moi ou mes publications, n'hésitez pas à me contacter à [cdong49@gatech.edu](mailto:cdong49@gatech.edu "cdong49@gatech.edu").*
 
