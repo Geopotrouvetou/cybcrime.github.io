@@ -5,18 +5,18 @@ aside: true
 ---
 
 <br/>
-# About Me
+# A Propos
 <hr>
 <br/>
 {% include figure.html image="/uploads/profile.png" caption="This is me :)" position="center" width="400" height="400"%}
 <br/>
-Hi guys! My name is Chuong, and I'm a fourth-year Computer Science student at [Georgia Tech](https://www.gatech.edu/ "Georgia Tech") concentrating in Systems & Architecture and Info Internetwork.
+Salut ! My name is Chuong, and I'm a fourth-year Computer Science student at [Georgia Tech](https://www.gatech.edu/ "Georgia Tech") concentrating in Systems & Architecture and Info Internetwork.
 
 I do a lot of reverse engineering and malware development for fun!
 
 I'm dedicating this blog to writing about my projects as well as the things that I learn as I explore the security field! Anything posted here is my own work and is not affiliated with any company that I work/worked for.
 
-Thank you for visiting, and I hope you enjoy your stay!
+Merci d'être venu voir ce qu'il se passe ici, et j'espère que mon travail vous plait !
 
 <br/><br/><br/><br/>
 
