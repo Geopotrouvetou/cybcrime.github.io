@@ -1,5 +1,5 @@
 ---
-title: Recherche
+title:
 excerpt: "Search for a page or post"
 ---
 
