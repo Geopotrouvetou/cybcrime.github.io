@@ -1,3 +1,2 @@
 # Stand//Alone
-
 My blog
