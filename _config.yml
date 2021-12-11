@@ -83,8 +83,8 @@ repo: "https://github.com/Cybcrime/cybcrime.github.io"
 email: "xxx@ecole.fr"
 
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
-google_analytics: 'UA'
-google_analytics_anonymize_ip: false
+google_analytics: 'G-W5BTY5F5LG'
+google_analytics_anonymize_ip: true
 service_worker: true # Will turn off the service worker if set to false
 css_inline: false # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 
