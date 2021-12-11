@@ -9,5 +9,5 @@ excerpt: "Search for a page or post"
 <hr>
 <h4>Me contacter</h4>
 <br/>
-{% include button.html text="cdong49@gatech.edu" link="mailto:cdong49@gatech.edu" %}
+{% include button.html text="standalone_blog@protonmail.com" link="mailto:standalone_blog@protonmail.com" %}
 {% include nav-social.html %}
