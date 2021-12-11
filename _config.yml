@@ -77,7 +77,7 @@ title: "StandAlone" # Site name or title, also used in jekyll-seo-tag
 
 logo: "/assets/logos/logo.gif" # Site logo, also used in jekyll-seo-tag
 description: "cyber crimi blog" # Site description and default description, also used in jekyll-seo-tag
-url: "https://standalone.github.io/" # Site url, also used in jekyll-seo-tag
+url: "https://cybcrime.github.io/" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/Cybcrime/cybcrime.github.io"
 email: "xxx@ecole.fr"
@@ -117,7 +117,7 @@ navigation_header:
 
 navigation_footer:
 - title: Stand//Alone
-  url: https://standalone.github.io
+  url: https://cybcrime.github.io
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   LinkedIn: https://www.linkedin.com/
