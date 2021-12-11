@@ -24,6 +24,6 @@ Merci d'être venu voir ce qu'il se passe ici, et j'espère que mon travail vous
 
 ### Me contacter
 
-*Si vous voulez en savoir plus sur moi ou mes publications, n'hésitez pas à me contacter à [cdong49@gatech.edu](mailto:cdong49@gatech.edu "cdong49@gatech.edu").*
+*Si vous voulez en savoir plus sur moi ou mes publications, n'hésitez pas à me contacter à [standalone_blog@protonmail.com](mailto:standalone_blog@protonmail.com "standalone_blog@protonmail.com").*
 
 *Vous pouvez aussi me contacter via mes réseaux sociaux affichés sur le côté. :grin:*
