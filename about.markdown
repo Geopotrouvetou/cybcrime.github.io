@@ -8,11 +8,12 @@ aside: true
 # A Propos
 <hr>
 <br/>
-{% include figure.html image="/uploads/profile.png" caption="This is me :)" position="center" width="400" height="400"%}
 <br/>
-Bienvenue sur mon blog ! Travaillant actuellement en Cyber Threat Intelligence, et ayant fait un master en Criminologie au CNAM (Conservatoire National des Arts et Métiers) ainsi qu'un master en Relations Internationales et Cyberespace à l'ILERI (Institut Libre d'Etude des Relations Internationales), je me suis lancé dans ce blog pour partager des articles sur des sujets qui m'intéressent. 
+Bienvenue sur mon blog ! 
 
-StandAlone (*Anglicisme informatique*) : Produit utilisable seul, c'est-à-dire sans modules ou connaissances complémentaires. C'est l'objet de ce blog. Présenter des sujets grâce à des articles détaillés et sourcés, sans que le lecteur n'ai besoin de connaissances préalables. 
+Travaillant actuellement en Cyber Threat Intelligence, et ayant fait un master en Criminologie au CNAM (Conservatoire National des Arts et Métiers) ainsi qu'un master en Relations Internationales et Cyberespace à l'ILERI (Institut Libre d'Etude des Relations Internationales), je me suis lancé dans ce blog pour partager des articles sur des sujets qui m'intéressent. 
+
+**StandAlone** (*Anglicisme informatique*) : Produit utilisable seul, c'est-à-dire sans modules ou connaissances complémentaires. C'est l'objet de ce blog. Présenter des sujets grâce à des articles détaillés et sourcés, sans que le lecteur n'ai besoin de connaissances préalables. 
 
 Tout ce qui est publié ici est issu de mon propre travail et n'est pas affilié à une quelconque entreprise pour laquelle je travaille ou ai travaillé.
 
