@@ -76,7 +76,7 @@ lang: fr-FR # Set the site language
 title: "StandAlone" # Site name or title, also used in jekyll-seo-tag
 
 logo: "/assets/logos/logo.gif" # Site logo, also used in jekyll-seo-tag
-description: "cyber crimi blog" # Site description and default description, also used in jekyll-seo-tag
+description: "StandAlone blog" # Site description and default description, also used in jekyll-seo-tag
 url: "https://cybcrime.github.io/" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/Cybcrime/cybcrime.github.io"
