@@ -19,7 +19,7 @@ Tout ce qui est publié ici est issu de mon propre travail et n'est pas affilié
 
 Merci d'être venu voir ce qu'il se passe ici, et j'espère que mon travail vous plaira !
 
-<br/><br/><br/><br/>
+<br/><br/><br/>
 
 <hr>
 
