@@ -9,7 +9,7 @@ aside: true
 <hr>
 <br/>
 <br/>
-**StandAlone** (*Anglicisme informatique*) : Produit utilisable seul, c'est-à-dire sans modules ou connaissances complémentaires. 
+**StandAlone** (*Anglicisme informatique*) : Produit utilisable seul, sans modules ou connaissances préalables. 
 
 Bienvenue sur mon blog ! 
 
