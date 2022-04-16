@@ -1,6 +1,5 @@
 ---
 title:
-layout: default
 excerpt: "Search for a page or post"
 ---
 
