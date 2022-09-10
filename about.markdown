@@ -19,6 +19,6 @@ Tout ce qui est publié ici est issu de mon propre travail et n'est pas affilié
 
 Si vous avez des questions ou des remarques, vous pouvez me contacter par mail ou via mes réseaux sociaux affichés sur le côté.
 
-<br/><br/><br/>
+<br/><br/>
 
 <hr>
