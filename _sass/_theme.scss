@@ -412,8 +412,8 @@ pre code {
 }
 
 ::selection {
-  background: $headingColour;
-  color: $backgroundColour;
+  background: $focusColour;
+  color: $bodyColour;
   text-shadow: none;
 }
 
