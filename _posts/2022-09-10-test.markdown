@@ -18,3 +18,22 @@ to structure your posts.
 
 You can display a block of code like the following using triple backticks.
 You can also specify the language after the first triple backticks.
+
+```
+
+python
+def hello(name):
+    return f'hello {name}'
+
+
+```
+
+## Add images
+
+Create an `assets` folder where you can put all your images,
+then display them with a link starting with an exclamative mark like this:
+`![my inspiring image]({{ "/assets/sample-image.jpg" | relative_url }})`.
+
+![Test Image]({{ "/assets/blacklagoon_balalaikagun.jpg" | relative_url }})
+_Photo by [Bobby Bob](https://unsplash.com/@goian)_
+```
