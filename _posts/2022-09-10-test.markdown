@@ -36,4 +36,4 @@ then display them with a link starting with an exclamative mark like this:
 
 ![Test Image]({{ "/assets/img/blacklagoon_balalaikagun.jpg" | relative_url }})
 
-__Photo by [Bobby Bob](https://unsplash.com/@goian)__
+_Photo by [Bobby Bob](https://unsplash.com/@goian)_
