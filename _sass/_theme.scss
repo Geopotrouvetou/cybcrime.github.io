@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 80%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -412,7 +412,7 @@ pre code {
 }
 
 ::selection {
-  background: $focusColour;
+  background: $accentColour;
   color: $bodyColour;
   text-shadow: none;
 }
