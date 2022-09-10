@@ -2,7 +2,7 @@
 layout: post
 title: "Write a Post"
 date: 2022-09-10
-categories: "analyse de malware"
+categories: - analyse de malware
 ---
 
 The goal of this article is to add some extra info
