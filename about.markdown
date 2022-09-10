@@ -22,9 +22,3 @@ Si vous avez des questions ou des remarques, vous pouvez me contacter par mail o
 <br/><br/><br/>
 
 <hr>
-
-### Me contacter
-
-*Si vous voulez en savoir plus sur moi ou mes publications, contactez moi ici [standalone_blog@protonmail.com](mailto:standalone_blog@protonmail.com "standalone_blog@protonmail.com").*
-
-*Vous pouvez aussi me contacter via mes réseaux sociaux affichés sur le côté.*
