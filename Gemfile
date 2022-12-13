@@ -43,5 +43,5 @@ gem 'jekyll-feed'
 gem 'jekyll-commonmark'
 gem 'jekyll-include-cache'
 gem 'jemoji'
-gem "nokogiri", ">= 1.14"
+gem "nokogiri", ">= 1.13.10"
 gem "rexml", ">= 3.2.5"
