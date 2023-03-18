@@ -9,12 +9,12 @@
 
 <div style="display: flex; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch;">
   {% for post in site.posts limit:5 %}
-    <div style="margin-right: 20px;">
+    <div style="margin-right: 20px; text-align: center;"">
       <a href="{{ post.url }}">
         <img src="{{ post.image }}" alt="{{ post.title }}" width="200" height="200">
       </a>
       <div style="margin-top: 10px;">
-        <a href="{{ post.url }}" style="font-size: 24px; font-weight: bold;">{{ post.title }}</a>
+        <a href="{{ post.url }}" style="font-size: 24px; font-weight: bold; text-align: center; display: block;">{{ post.title }}</a>
       </div>
     </div>
   {% endfor %}
