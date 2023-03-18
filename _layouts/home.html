@@ -4,15 +4,15 @@ layout: default
 
 {% include site-header.html %}
 
-<main class="main  container">
+{% include latest_articles.html %}
 
-  <article class="article  article--page  content  typeset">
+  <main class="main  container">
 
-    {% include latest_articles.html %}
+    <article class="article  article--page  content  typeset">
 
-  </article>
+      </article>
 
-  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
-</main>
+    {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+  </main>
 
 {% include site-footer.html %}
