@@ -1,5 +1,18 @@
-<ul>
+<style>
+  .nav-button {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+</style>
+
+<div>
+  <a href="{{ site.posts[1].url }}" class="nav-button">&lt;</a>
+
   {% for post in site.posts limit:5 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <span><a href="{{ post.url }}">{{ post.title }}</a></span>
   {% endfor %}
-</ul>
+
+  <a href="{{ site.posts[6].url }}" class="nav-button">&gt;</a>
+</div>
