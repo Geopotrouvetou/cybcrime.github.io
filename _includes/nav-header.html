@@ -1,28 +1,10 @@
 {% if site.navigation_header %}
 <nav class="nav  nav--header">
     <ul class="list  list--nav">
-    {% for item in site.navigation_header %}
-            {% if page.url contains item.url %}
-                <li class="active"><a href="{{item.url }}">{{item.title}}</a></li>
-            {% endif %}
+    {% for entry in site.navigation_header %}
+        <li class="active"><a href="{{entry.url }}">{{entry.title}}</a></li>
     {% endfor %}
-        
-    {% for item in site.navigation_header_dropdown %}
-        {% for item in entry.items %}
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ item.title }}<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        {% for folderitem in items.folderitems %}
-                        {% if page.url contains folderitem.url %}
-                        <li class="dropdownActive"><a href="{{folderitem.url }}">{{folderitem.title}}</a></li>
-                        {% endif %}
-                        {% endfor %}
-                    </ul>
-                </li>
-         {% endfor %}
-     {% endfor %}
-   
-   
+      
         {% if item.url contains '://' %}
           {% assign url = item.url %}
         {% else %}
