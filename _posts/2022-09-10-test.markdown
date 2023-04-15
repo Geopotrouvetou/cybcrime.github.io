@@ -4,7 +4,7 @@ title: "Write a Post"
 date: 2022-09-10
 image: /assets/img/blacklagoon_balalaikagun.jpg
 categories: 
-- analyse de malware
+- cyber
 ---
 
 The goal of this article is to add some extra info
