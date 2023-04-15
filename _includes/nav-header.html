@@ -1,32 +1,22 @@
 {% if site.navigation_header %}
-<nav id=“site-nav” class="navbar navbar-expand-lg">
-  <div class="container-fluid">‬
-    <button class="navbar-toggle bar-button" type="button" data-toggle="collapse" data-target=".site-navbar-collapse">‬
-      {% include icon.html id="nav" title="Menu" %}
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">‬
-‭       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        {% for item in site.navigation_header %}
-            <li class="dropdown" >
-             <a class="dropdown-toggle" href="{{ item.url }}">{{ item.title }}</a>
-                    {% if item.subfolderitems %}
-                    <ul class="dropdown-menu" >
-                        {% for entry in item.subfolderitems %}
-                        <li ><a class="dropdown-item" href="{{ entry.url }}">{{ entry.title }}</a></li>
-                        {% endfor %}
-                    </ul>
-                    {% endif %}
-            </li>
-        {% endfor %} 
-       </ul>        
-     </div>
-        {% if item.url contains '://' %}
-          {% assign url = item.url %}
-        {% else %}
-          {% assign url = item.url | relative_url %}
-        {% endif %}
+<nav class="nav  nav--header">
+  <ul class="list  list--nav">
+    {% for item in site.navigation_header %}
 
-  </div>
+      {% if item.url contains '://' %}
+        {% assign url = item.url %}
+      {% else %}
+        {% assign url = item.url | relative_url %}
+      {% endif %}
+
+      <li class="item  item--nav{% if item.url == page.url %}  item--current{% endif %}">
+        <a href="{{ url }}">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  <button class="button  button--nav" aria-label="Menu toggle">
+    {% include icon.html id="nav" title="Menu" %}
+  </button>
 </nav>
 {% else %}
   {% include nav-default.html %}
