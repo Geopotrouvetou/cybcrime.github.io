@@ -1,10 +1,11 @@
 {% if site.navigation_header %}
-<nav class="header-menu" id="header-menu"">
+<nav class="header-menu" id="header-menu">
     {% for item in site.navigation_header %}
       {% if item.subfolderitems %}
         <ul class="menu">
         {% for entry in item.subfolderitems %}
-          <a class="menu-link nav-link" href="{{ entry.url }}">{{ entry.name }}</a>
+          <li class="menu-item">
+            <a class="menu-link nav-link" href="{{ entry.url }}">{{ entry.name }}</a>
         {% endfor %}
       {% endif %}
         {% if item.url contains '://' %}
