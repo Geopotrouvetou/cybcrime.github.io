@@ -2,14 +2,12 @@
 <nav class="nav  nav--header">
     <ul class="list  list--nav">
     {% for item in site.navigation_header %}
-      {% if item.subfolderitems %}
-        <ul class="dropdown-menu">
         {% for entry in item.subfolderitems %}
-          <li class="dropdown-menu">
+          <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="{{ entry.url }}">{{ entry.title }}</a>
+          </li>
         {% endfor %}
-        </li>
-      {% endif %}
+
         {% if item.url contains '://' %}
           {% assign url = item.url %}
         {% else %}
