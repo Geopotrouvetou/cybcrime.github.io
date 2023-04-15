@@ -1,6 +1,10 @@
 {% if site.navigation_header %}
 <nav id=“site-nav” class="navbar navbar-expand-lg">
-    <ul class="list  list--nav">
+  <div class="container-fluid">‬
+‭    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">‬
+      {% include icon.html id="nav" title="Menu" %}
+    </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">‬
 ‭       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         {% for item in site.navigation_header %}
@@ -15,7 +19,7 @@
                     {% endif %}
             </li>
         {% endfor %} 
-        </ul>        
+       </ul>        
      </div>
         {% if item.url contains '://' %}
           {% assign url = item.url %}
@@ -23,10 +27,7 @@
           {% assign url = item.url | relative_url %}
         {% endif %}
 
-  </ul>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">‬
-      {% include icon.html id="nav" title="Menu" %}
-  </button>
+  </div>
 </nav>
 {% else %}
   {% include nav-default.html %}
