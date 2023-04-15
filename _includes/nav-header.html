@@ -8,8 +8,8 @@
              <a class=“nav-link dropdown-toggle” href="{{ item.url }}">{{ item.title }}</a>
                     {% if item.subfolderitems %}
                     <ul class="dropdown-menu" >
-                        {% for page in item.subfolderitems %}
-                        <li ><a class=“dropdown-item” href="{{ page.url }}">{{ page.title }}</a></li>
+                        {% for entry in item.subfolderitems %}
+                        <li ><a class=“dropdown-item” href="{{ entry.url }}">{{ entry.title }}</a></li>
                         {% endfor %}
                     </ul>
                     {% endif %}
