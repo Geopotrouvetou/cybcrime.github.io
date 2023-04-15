@@ -104,9 +104,9 @@ navigation_header:
   url: /about/
 - title: Articles
   subfolderitems:
-  - page: Cyber
+  - title: Cyber
     url: /blog/#cyber
-  - page: Géopolitique
+  - title: Géopolitique
     url: /blog/#geopo
 - title: Recherche
   url: /search/
