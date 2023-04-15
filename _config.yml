@@ -102,16 +102,14 @@ navigation_header:
       url: /
     - title: A propos
       url: /about/
-    - title: Recherche
-      url: /search/
-
-navigation_header_dropdowns:
     - title: Articles
       folderitems:
         - title: Cyber
           url: /blog/#cyber
         - title: Géopolitique
           url: /blog/#geopo
+    - title: Recherche
+      url: /search/
 
 # - title: Categories
 #   url: /categories/
