@@ -1,8 +1,9 @@
 {% if site.navigation_header %}
 <nav class="nav  nav--header">
+    <ul class="list  list--nav">
     {% for item in site.navigation_header %}
       {% if item.subfolderitems %}
-        <ul class="menu">
+        <ul class="dropdown-menu">
         {% for entry in item.subfolderitems %}
           <li class="dropdown-menu">
             <a class="dropdown-toggle" data-toggle="dropdown" href="{{ entry.url }}">{{ entry.title }}</a>
