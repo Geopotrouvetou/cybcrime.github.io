@@ -4,7 +4,7 @@
       {% if item.subfolderitems %}
         <ul class="menu">
         {% for entry in item.subfolderitems %}
-          <li class="menu-item">
+          <li class="menu-item menu-drop">
             <a class="menu-link nav-link" href="{{ entry.url }}">{{ entry.name }}</a>
         {% endfor %}
       {% endif %}
