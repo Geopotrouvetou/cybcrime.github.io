@@ -1,7 +1,9 @@
 {% if site.navigation_header %}
-<nav class="nav  nav--header">
+<nav id=“site-nav” class="navbar navbar-expand-lg">
     <ul class="list  list--nav">
-    {% for item in site.navigation_header %}
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">‬
+‭       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        {% for item in site.navigation_header %}
             <li class="nav-item dropdown" >
              <a class=“nav-link dropdown-toggle” href="{{ entry.url }}">{{ entry.title }}</a>
                     {% if item.subfolderitems %}
@@ -12,8 +14,9 @@
                     </ul>
                     {% endif %}
             </li>
-     {% endfor %} 
-
+        {% endfor %} 
+        </ul>        
+     </div>
         {% if item.url contains '://' %}
           {% assign url = item.url %}
         {% else %}
