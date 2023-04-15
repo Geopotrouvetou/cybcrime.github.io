@@ -1,6 +1,5 @@
 {% if site.navigation_header %}
-<nav class="nav  nav--header">
-  <ul class="list  list--nav">
+<nav class="header-menu" id="header-menu"">
     {% for item in site.navigation_header %}
       {% if item.subfolderitems[0] %}
         <ul class="menu">
@@ -8,11 +7,11 @@
           <a class="menu-link nav-link" href="{{ entry.url }}">{{ entry.name }}</a>
         {% endfor %}
       {% endif %}
-      {% if item.url contains '://' %}
-        {% assign url = item.url %}
-      {% else %}
-        {% assign url = item.url | relative_url %}
-      {% endif %}
+        {% if item.url contains '://' %}
+          {% assign url = item.url %}
+        {% else %}
+          {% assign url = item.url | relative_url %}
+        {% endif %}
 
       <li class="item  item--nav{% if item.url == page.url %}  item--current{% endif %}">
         <a href="{{ url }}">{{ item.title }}</a>
