@@ -103,11 +103,15 @@ navigation_header:
 - title: A propos
   url: /about/
 - title: Articles
+  url: "#"
+  weight: 2
   subfolderitems:
   - page: Cyber
     url: /blog/#cyber
+    weight: 1
   - page: Géopolitique
     url: /blog/#geopo
+    weight: 1
 - title: Recherche
   url: /search/
 # - title: Categories
