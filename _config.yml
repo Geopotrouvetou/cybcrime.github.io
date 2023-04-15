@@ -98,18 +98,25 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 
 # 9. Site navigation
 navigation_header:
-- title: Accueil
-  url: /
-- title: A propos
-  url: /about/
-- title: Articles
-  subfolderitems:
-  - title: Cyber
-    url: /blog/#cyber
-  - title: Géopolitique
-    url: /blog/#geopo
-- title: Recherche
-  url: /search/
+- title: Navigation Header
+  items:
+    - title: Accueil
+      url: /
+    - title: A propos
+      url: /about/
+    - title: Recherche
+      url: /search/
+
+navigation_header_dropdowns:
+- title: Navigation Header dropdowns
+  items:
+    - title: Articles
+      folderitems:
+        - title: Cyber
+          url: /blog/#cyber
+        - title: Géopolitique
+          url: /blog/#geopo
+
 # - title: Categories
 #   url: /categories/
 
