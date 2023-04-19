@@ -5,6 +5,7 @@ date: 2022-09-10
 image: /assets/img/blacklagoon_balalaikagun.jpg
 categories: 
 - cyber
+- géopo
 ---
 
 The goal of this article is to add some extra info
